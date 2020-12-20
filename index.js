@@ -1,20 +1,18 @@
-
-
-
-/*
 const fs = require('fs');
 const Discord = require('discord.js');
 const { prefix, token } = require('./config.json');
 
+// Initialize the discord.js client and a collection of commands
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 
+// Every file in ./commands is to be added to the client as an individual command
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
 	client.commands.set(command.name, command)
 }
+
 
 const cooldowns = new Discord.Collection();
 
@@ -78,4 +76,3 @@ client.on('message', message => {
 });
 
 client.login(token);
-*/

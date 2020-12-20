@@ -1,5 +1,5 @@
-# QuipBot
+### QuipBot
+---
+This is a bot for the **We Are Quips** discord server. 
 
-
-This is a test!
-alt names: Cumpbot?
+To install everything the node packages run: `npm install`
