@@ -2,4 +2,8 @@
 
 This is a bot for the **We Are Quips** discord server. Made using [disord.js](https://discord.js.org/#/)
 
-To install everything the node packages run `npm install`
+
+## Installation
+
+After cloning the repo, install the node packages with `npm install`
+Then, in [config.json](./config.json) add your bot's token to the allocated space.   
