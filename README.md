@@ -1,6 +1,6 @@
 # QuipBot
 
-This is a bot for the **We Are Quips** discord server. Made using [disord.js](https://discord.js.org/#/)
+This is a bot for the **We Are Quips** discord server. Made using [discord.js](https://discord.js.org/#/)
 
 
 ## Installation
