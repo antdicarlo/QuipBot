@@ -1,0 +1,22 @@
+{
+  "name": "quipbot",
+  "version": "1.0.0",
+  "description": "A discord bot for the We Are Quips Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antdicarlo/QuipBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antdicarlo/QuipBot/issues"
+  },
+  "homepage": "https://github.com/antdicarlo/QuipBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
